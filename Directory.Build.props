@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project>
+
+	<PropertyGroup>
+		<Product>Demo OData API</Product>
+		<Company>delaware</Company>
+		<VersionPrefix>1.0</VersionPrefix>
+		
+		<LangVersion>11.0</LangVersion>
+		
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<Import Project="$(MSBuildThisFileDirectory)\Warnings.props" />
+
+	<ItemGroup>
+		<!-- Allow source linking in order to easily debug NuGets. -->
+		<PackageReference Include="Microsoft.SourceLink.AzureRepos.Git" Version="1.1.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>

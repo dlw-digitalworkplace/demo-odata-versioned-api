@@ -1,0 +1,10 @@
+<Project>
+
+	<PropertyGroup>
+
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<NoWarn>$(NoWarn);1591;1701;1702;IDE0060;IDE0063;DV2001;RCS1090</NoWarn>
+
+	</PropertyGroup>
+
+</Project>

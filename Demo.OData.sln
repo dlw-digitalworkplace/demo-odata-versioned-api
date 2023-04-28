@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.OData.Data", "Demo.OData.Data\Demo.OData.Data.csproj", "{DC32C26D-009C-41B3-8895-6DD7930CD356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.OData.Api", "Demo.OData.Api\Demo.OData.Api.csproj", "{835ACC16-BF7D-4F47-ADC7-EEA9B3276AC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC32C26D-009C-41B3-8895-6DD7930CD356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC32C26D-009C-41B3-8895-6DD7930CD356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC32C26D-009C-41B3-8895-6DD7930CD356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC32C26D-009C-41B3-8895-6DD7930CD356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835ACC16-BF7D-4F47-ADC7-EEA9B3276AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835ACC16-BF7D-4F47-ADC7-EEA9B3276AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835ACC16-BF7D-4F47-ADC7-EEA9B3276AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835ACC16-BF7D-4F47-ADC7-EEA9B3276AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A492F5E-1923-4BE4-A5E4-585B29FFEBBE}
+	EndGlobalSection
+EndGlobal
